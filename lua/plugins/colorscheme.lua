@@ -5,12 +5,13 @@ return {
   { "vague2k/vague.nvim" },
   { "sainnhe/everforest" },
   { "olivercederborg/poimandres.nvim" },
+  { "nordtheme/vim" },
 
   -- Configure LazyVim to load a theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "vim",
     },
   },
 }
