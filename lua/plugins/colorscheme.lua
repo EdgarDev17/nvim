@@ -5,13 +5,13 @@ return {
   { "vague2k/vague.nvim" },
   { "sainnhe/everforest" },
   { "olivercederborg/poimandres.nvim" },
-  { "nordtheme/vim" },
+  { "projekt0n/github-nvim-theme", name = "github-theme" },
 
   -- Configure LazyVim to load a theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vim",
+      colorscheme = "github_dark",
     },
   },
 }
